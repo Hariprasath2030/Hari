@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEMESTER-III</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+     body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+      
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+    }
+    
+    #content {
+        position: absolute;
+        top: 5mm; /* Adjust according to your needs */
+        left: 30mm; /* Adjust according to your needs */
+        right: 30mm; /* Adjust according to your needs */
+        bottom: 5mm; /* Adjust according to your needs */
+        overflow-y: scroll;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 10mm; /* Adjust according to your needs */
+        background-color: rgba(255, 255, 255, 0.795); /* Add background color with transparency */
+    }
+    #heading {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px; /* Adjust according to your needs */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    .unit {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2mm; /* Adjust according to your needs */
+        margin-bottom: 5mm; /* Adjust according to your needs */
+    }
+    /* Button Styling */
+    button {
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color:rgba(124, 124, 124, 0.9);;
+    }
+</style>
+</head>
+<body>
+
+<div id="content">
+    <div style="position: absolute; top: 20px; right: 20px; width: 150px; height: 100px; border: 1px solid black; padding: 10px; background-color: white; text-align: center;">
+        <h3>L   T   P   C</h3>
+        <h3>3   0   2   4</h3>
+    </div>
+    
+    <div id="heading">
+        SEMESTER-III <br>DATABASE TECHNOLOGY
+    </div>
+    <h5><b>21IT321</b></h5>
+    <h5><b>COURSE OBJECTIVES</b></h5>
+   
+    <p>The course aims to provide the students<br>
+        ● Introduction to database management systems.<br>
+        ● How to organize, maintain and retrieve - efficiently, and effectively - information from a DBMS</p>
+    <h5><b>PREREQUISITES : NIL</b></h5>
+    
+    <h5><b>Course Articulation Matrix : 3- High, 2- Medium, 3- Low</b></h5><br>
+    <table>
+        <tr>
+            <th> </th>
+            <th>PO1</th>
+            <th>PO2</th>
+            <th>PO3</th>
+            <th>PO4</th>
+            <th>PO5</th>
+            <th>PO6</th>
+            <th>PO7</th>
+            <th>PO8</th>
+            <th>PO9</th>
+            <th>PO10</th>
+            <th>PO11</th>
+            <th>PO12</th>
+            <th>PSO1</th>
+            <th>PSO2</th>
+            <th>PSO3</th>
+        </tr>
+        <tr>
+            <td>CO1</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CO2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CO3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CO4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>CO5</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+       </tr>
+        <tr>
+            <td>CO6</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table><br>
+    <div class="unit">
+        <h5><b>UNIT I - INTRODUCTION</b></h5>
+        <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+    </div>
+    <P>File Systems Organization – Sequential, Pointer, Indexed, Direct – Purpose of Database System-view
+        of data, Database System Terminologies-Database characteristics- Data models – Types of data models
+        – Components of DBMS-database users and administrators- Applications of Database system-
+        Introduction to Relational Database- relational model, keys, relational algebra.</P><br>
+    <div class="unit">
+            <h5><b>UNIT II - SQL and PL SQL</b></h5>
+            <h5><b style="margin-left: 10mm;">9</b></h5><BR><br>
+        </div>
+        <P>SQL fundamentals- Introduction- Data types- SQL statements- DDL, DML, DCL, TCL- aggregate
+            functions, string functions- operators- nested query- sub query- joins- views- sequence and synonyms.
+            PL SQL fundamentals- Introduction-data types- variables- constants- literals-operators- conditions
+            loops- cursor- procedure- function- trigger- exception handling.</P><br>
+    <div class="unit">
+                <h5><b>UNIT III -DATABASE DESIGN</b></h5>
+                <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+            </div>
+            <P>Entity-Relationship model – E-R Diagrams – Enhanced-ER Model – ER-to-Relational Mapping –
+                Functional Dependencies – Non-loss Decomposition – First, Second, Third Normal Forms, Dependency
+                Preservation – Boyce/Codd Normal Form – Multi-valued Dependencies and Fourth Normal Form –
+                Join Dependencies and Fifth Normal Form.</P><br>
+                <div class="unit">
+                    <h5><b>UNIT IV - TRANSACTION MANAGEMENT</b></h5>
+                    <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+                </div>
+                <P>Transaction Concepts – ACID Properties- Transaction states– Schedules – Serializability –
+                    Concurrency Control – Need for Concurrency – Locking Protocols – Two Phase Locking – Time-stamp
+                    based locking – Deadlock – Transaction Recovery - Save Points – Isolation Levels – SQL Facilities for
+                    Concurrency and Recovery.</P><br>
+                    <div class="unit">
+                        <h5><b>UNIT V - STORAGE AND QUERYING</b></h5>
+                        <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+                    </div>
+                    <P>RAID- organization of records- Hashing- static and dynamic hashing- query processing- measure of
+                        query cost- selection operation- sorting- join operation- query optimization using heuristics and cost
+                        estimation.</P><br>
+                        <h5><b style="margin-left: 20cm;">TOTAL HOURS:45</b></h5><BR><br>
+   <p><b>COURSE OUTCOMES</b><br><br>
+    At the end of the course students should be able to<br><br>
+    <b>CO1:</b>  To describe data models and schemas in DBMS and to understand the features of database
+    management systems and Relational database.<br>
+    <b>CO2:</b>To use SQL and PL SQL- the standard language of relational databases<br>
+    <b>CO3:</b>
+    To design a database<br>
+    <b>CO4:</b> To implement the concept of Transaction processing<br>
+    <b>CO5:</b> To implement the concepts of Query processing<br><br>
+    <b>CO6:</b> Implement and test the project developed for an application<br><br>
+   
+    <b>TEXT BOOKS:</b><br>
+    <b>T1:</b>
+    Data base System Concepts, A. Silberschatz, Henry. F. Korth, S. Sudarshan, McGraw Hill
+    Education (India) Private Limited, 6th edition.<br>
+    <b>T2:</b>
+    Data base Management Systems, Raghu Ramakrishnan, Johannes Gehrke, McGraw Hill
+    Education (India) Private Limited, 3rd Edition<br><br>
+   
+   <b> REFERENCE BOOKS:</b><br><br>
+    <b>R1:</b>
+    Database Systems, 6th edition, R Elmasri, ShamkantB.Navathe, Pearson Education.<br>
+    <b>R2:</b>
+    Database System Concepts, Peter Rob & Carlos Coronel, Cengage Learning<br>
+    <b>R3:</b>
+    Introduction to Database Management, M. L. Gillenson and others, Wiley Student Edition<br>
+    <b>R4:</b>
+    Database Development and Management, Lee Chao, Auerbach publications, Taylor & Francis
+Group<br>
+</p>
+    <button onclick="goBack()">GoBack</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

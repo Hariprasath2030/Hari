@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEMESTER-III</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+     body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+      
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+    }
+    
+    #content {
+        position: absolute;
+        top: 5mm; /* Adjust according to your needs */
+        left: 30mm; /* Adjust according to your needs */
+        right: 30mm; /* Adjust according to your needs */
+        bottom: 5mm; /* Adjust according to your needs */
+        overflow-y: scroll;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 10mm; /* Adjust according to your needs */
+        background-color: rgba(255, 255, 255, 0.795); /* Add background color with transparency */
+    }
+    #heading {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px; /* Adjust according to your needs */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    .unit {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2mm; /* Adjust according to your needs */
+        margin-bottom: 5mm; /* Adjust according to your needs */
+    }
+    /* Button Styling */
+    button {
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color:rgba(124, 124, 124, 0.9);;
+    }
+</style>
+</head>
+<body>
+
+<div id="content">
+    <div style="position: absolute; top: 20px; right: 20px; width: 150px; height: 100px; border: 1px solid black; padding: 10px; background-color: white; text-align: center;">
+        <h3><b>L   T   P   C</b></h3>
+        <h3>3   0   2   4</h3>
+    </div>
+    
+    <div id="heading">
+        SEMESTER-III <br> OBJECT ORIENTED PROGRAMMING
+    </div>
+    <h5><b>21CS322</b></h5>
+    <h4><b>COURSE OBJECTIVES</b></h4>
+   
+    <p>The course aims to provide the students<br>
+        ● To understand Object Oriented Programming concepts and basic characteristics of Java<br>
+        ● To know the principles of creating basic Java classes and methods<br>
+        ● To know the principles of inheritance and interfaces and polymorphism<br>
+        ● To define exceptions and use I/O streams<br>
+        ● To develop a java application with threads and collections</p>
+    <h6><b>PREREQUISITES : Nil</b></h6>
+    
+    <h3><b>Course Articulation Matrix: </b>3-High, 2-Medium, 3-Low</h3><br>
+    <table>
+        <tr>
+            <th> </th>
+            <th>PO1</th>
+            <th>PO2</th>
+            <th>PO3</th>
+            <th>PO4</th>
+            <th>PO5</th>
+            <th>PO6</th>
+            <th>PO7</th>
+            <th>PO8</th>
+            <th>PO9</th>
+            <th>PO10</th>
+            <th>PO11</th>
+            <th>PO12</th>
+            <th>PSO1</th>
+            <th>PSO2</th>
+            <th>PSO3</th>
+        </tr>
+        <tr>
+            <td>CO1</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CO2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CO3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CO4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CO5</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CO6</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+        </tr>
+    </table><br>
+    <div class="unit">
+        <h3><b>UNIT I INTRODUCTION TO OOP AND JAVA FUNDAMENTALS</b></h3>
+        <h3><b style="margin-left: 30mm;">9</b></h3><BR><br>
+    </div>
+    <P>Object Oriented Programming Abstraction – objects and classes Encapsulation Inheritance
+        Polymorphism OOP in Java – Characteristics of Java – The Java Environment Java Source File
+        Structure – Compilation. Fundamental Programming Structures in Java.</P><br>
+    <div class="unit">
+            <h3><b>UNIT II - JAVA LANGUAGE BASICS</b></h3>
+            <h3><b style="margin-left: 10mm;">9</b></h3><BR><br>
+        </div>
+        <P>Defining classes in Java – constructors and methods – defining real world entities using classes Access
+            specifiers static members Comments, Data Types, Variables, Operators, Control Flow, Arrays,
+            Packages – Java API documentation, Java Doc comments.
+            </P><br>
+    <div class="unit">
+                <h3><b>UNIT III - INHERITANCE AND INTERFACES</b></h3>
+                <h3><b style="margin-left: 30mm;">9</b></h3><BR><br>
+            </div>
+            <P>Inheritance – Super classes sub classes –Protected members – constructors in sub classes The Object
+                class – abstract classes and methods final methods and classes – Interfaces – defining an interface,
+                implementing interface, differences between classes and interfaces and extending interfaces –
+                polymorphism with inheritance – Strings.</P><br>
+                <div class="unit">
+                    <h3><b>UNIT IV - EXCEPTION HANDLING AND I/O</b></h3>
+                    <h3><b style="margin-left: 30mm;">9</b></h3><BR><br>
+                </div>
+                <P>Exceptions exception hierarchy throwing and catching exceptions – builtin exceptions, creating own
+                    exceptions, Stack Trace Elements. Input / Output Basics – Streams – Byte streams and Character
+                    streams – Reading and Writing Console – Reading and Writing Files.</P><br>
+                    <div class="unit">
+                        <h3><b>UNIT V - MULTITHREADING AND COLLECTIONS</b></h3>
+                        <h3><b style="margin-left: 30mm;">9</b></h3><BR><br>
+                    </div>
+                    <P>Differences between multithreading and multitasking, thread life cycle, creating threads, Synchronizing
+                        threads, Interthread communication, daemon threads, inner classes, Array List Basics of collections
+                        frameworks and Generics – Generic classes, Generic methods.</P><br>
+   <p><b>COURSE OUTCOMES</b><br><br>
+    At the end of the course students should be able to<br><br>
+    <b>CO1:</b>   Explain the basic concepts of object oriented programming language and their representation<br>
+    <b>CO2:</b> Illustrate dynamic memory allocation functions, access specifiers and the friend functions<br>
+    <b>CO3:</b>Demonstrate the use of constructors, destructors and also the behaviour of inheritance and its
+implementation<br>
+    <b>CO4:</b>Implement polymorphism and overloading of operators.<br>
+    <b>CO5:</b> Apply the I/O operations to handle backup system using files and to develop general purpose
+    templates<br>
+    <b>CO6:</b> 
+    Handle raised exception while implementing various object oriented concepts<br><br>
+    <b>TEXT BOOKS:</b><br>
+    <b>T1:</b>
+    Herbert Schildt, - Java The complete reference, 8th Edition, McGraw Hill Education, 2011.<br>
+    <b>T2:</b>
+    Cay S. Horstmann, Gary Cornell, - Core Java Volume –I Fundamentals, 9th Edition, Prentice
+    Hall, 2013<br>
+    <b>T3:</b>
+    Friedberg, A.H., Insel ,A.J. and Spence, L., ―Linear Algebra‖,
+    PrenticeHallofIndia,NewDelhi,2004<br>
+    <b>T4:</b>
+    Koshy, T., “Elementary Number Theory with Applications”, Elsevier Publications, New Delhi,
+    2002<BR><br><br>
+   <b> REFERENCE BOOKS:</b><br><br>
+    <b>R1:</b>
+    Bernard Kolman, Robert C Busby and Sharon Cutler Ross, “Discrete Mathematical Structures”,
+    Prentice Hall, New Delhi, 6th Edition ,2007.<br>
+    <b>R2:</b>
+    Ralph P Grimaldi, “Discrete and Combinatorial Mathematics-An Applied Introduction”,
+    Addion Wesley, USA, 5th Edition,2016<br>
+    <b>R3:</b>
+    Richard Johnsonbaugh, “Discrete Mathematics”, Pearson Education, New Delhi,8th Edition
+    ,2018<br>
+    <b>R4:</b>
+    Kolman, B. Hill, D.R., ―Introductory Linear Algebra‖, Pearson Education, New Delhi, First
+    Reprint, 2009.<br>
+    <b>R5:</b>
+    Strang, G., ―Linear Algebra and its applications‖, Thomson (Brooks/Cole), New Delhi, 3rd
+    Edition, 2017.<br>
+    <b>R6:</b> Sundarapandian,V.―NumericalLinearAlgebra‖,PrenticeHallofIndia,NewDelhi,2015.</p>
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

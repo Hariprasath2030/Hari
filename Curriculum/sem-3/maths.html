@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEMESTER-III</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+     body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+      
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+    }
+    
+    #content {
+        position: absolute;
+        top: 5mm; /* Adjust according to your needs */
+        left: 30mm; /* Adjust according to your needs */
+        right: 30mm; /* Adjust according to your needs */
+        bottom: 5mm; /* Adjust according to your needs */
+        overflow-y: scroll;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 10mm; /* Adjust according to your needs */
+        background-color: rgba(255, 255, 255, 0.795); /* Add background color with transparency */
+    }
+    #heading {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px; /* Adjust according to your needs */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    .unit {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2mm; /* Adjust according to your needs */
+        margin-bottom: 5mm; /* Adjust according to your needs */
+    }
+    /* Button Styling */
+    button {
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color:rgba(124, 124, 124, 0.9);;
+    }
+</style>
+</head>
+<body>
+
+<div id="content">
+    <div style="position: absolute; top: 20px; right: 20px; width: 150px; height: 100px; border: 1px solid black; padding: 10px; background-color: white; text-align: center;">
+        <h3>L   T   P   C</h3>
+        <h3>3   1   0   4</h3>
+    </div>
+    
+    <div id="heading">
+        SEMESTER-III <br> DISCRETE MATHEMATICS
+    </div>
+    <h5><b>21MA305</b></h5>
+    <h4><b>COURSE OBJECTIVES</b></h4>
+   
+    <p>Engineering Mathematics is an essential tool for describing and analyzing engineering process and
+        systems. The objective of the course is to expose students to understand the basics and importance of
+        Propositional and Predicate calculus, Combinatorics, Vector spaces and Number Theory which are
+        being widely used in Information sciences.</p>
+    <h3><b>PREREQUISITES : Set theory and Matrices</b></h3>
+    
+    <h3><b>Course Articulation Matrix</b></h3><br>
+    <table>
+        <tr>
+            <th> </th>
+            <th>PO1</th>
+            <th>PO2</th>
+            <th>PO3</th>
+            <th>PO4</th>
+            <th>PO5</th>
+            <th>PO6</th>
+            <th>PO7</th>
+            <th>PO8</th>
+            <th>PO9</th>
+            <th>PO10</th>
+            <th>PO11</th>
+            <th>PO12</th>
+            <th>PSO1</th>
+            <th>PSO2</th>
+            <th>PSO3</th>
+        </tr>
+        <tr>
+            <td>CO1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CO2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CO3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CO4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CO5</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>CO6</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+    </table><br>
+    <div class="unit">
+        <h3><b>UNIT I - PROPOSITIONAL CALCULUS</b></h3>
+        <h3><b style="margin-left: 30mm;">12</b></h3><BR><br>
+    </div>
+    <P>Logic-Propositional Equivalences- Rules of Inference -Proofs- Direct Proofs-Contraposition-
+        Contradiction-Equivalence-NormalForms- Applications of Propositional calculus in Information
+        sciences.</P><br>
+    <div class="unit">
+            <h3><b>UNIT II - PREDICATE CALCULUS</b></h3>
+            <h3><b style="margin-left: 10mm;">12</b></h3><BR><br>
+        </div>
+        <P>Predicates–Statement function–Variables–Free and bound variables-Quantifiers–Universe of
+            discourse–Logical equivalences and implications for quantified statements–Theory of inference
+            -The rules of universal specification and generalization–Validity of arguments-Applications of
+            Propositional calculus in Information sciences.</P><br>
+    <div class="unit">
+                <h3><b>UNIT III - COMBINATORICS</b></h3>
+                <h3><b style="margin-left: 30mm;">12</b></h3><BR><br>
+            </div>
+            <P>Permutation and Combination - Generalized Permutation and Combination - Recurrence Relation –
+                Solving Linear Recurrence Relations using Characteristic Roots- Applications of counting principle in
+                Information sciences</P><br>
+                <div class="unit">
+                    <h3><b>UNIT IV - VECTOR SPACES</b></h3>
+                    <h3><b style="margin-left: 30mm;">10</b></h3><BR><br>
+                </div>
+                <P>General vector space–real vector spaces–subspaces–Linear dependence and independence–Basis and
+                    Dimension of vector space in Information sciences.</P><br>
+                    <div class="unit">
+                        <h3><b>UNIT V - ELEMENTS OF NUMBER THEORY</b></h3>
+                        <h3><b style="margin-left: 30mm;">14</b></h3><BR><br>
+                    </div>
+                    <P>Division algorithm–Base-brepresentations–Numberpatterns–Primeandcompositenumbers– GCD –
+                        Euclidean algorithm – Fundamental theorem of arithmetic – LCM - Chinese remainder theorem–
+                        Problems- Applications of Number Theory in Information sciences.</P><br>
+   <p><b>COURSE OUTCOMES</b><br><br>
+    At the end of the course students should be able to<br><br>
+    <b>CO1:</b>   Apply the logical structure of proofs with connectives to produce logically valid arguments
+    and construct direct and indirect proofs and proofs by induction for appropriateness of each
+    type in a particular setting<br>
+    <b>CO2:</b> Formulate and solve problems involve predicates.<br>
+    <b>CO3:</b>
+    Apply counting techniques and recursion theory including recursive and recursively
+    enumerable sets of natural numbers in the problems of logic<br>
+    <b>CO4:</b> Solve problems using vector space concepts<br>
+    <b>CO5:</b>  Apply number theory concepts for solving problems occur in Information sciences<br>
+    <b>CO6:</b> 
+    Gain the knowledge of combinatorics, set theory, logic, relations, graph theory, and analysis
+    of algorithms<br><br>
+    <b>TEXT BOOKS:</b><br>
+    <b>T1:</b>
+    Tremblay J P and Manohar R, ―Discrete Mathematical Structures with Applications to
+    Computer Science‖, Tata Mc Graw Hill, NewDelhi,2017.<br>
+    <b>T2:</b>
+    Kenneth H Rosen, “Discrete Mathematics and its Applications”, Tata McGraw Hill, New Delhi,
+    7th Edition, 2016<br>
+    <b>T3:</b>
+    Friedberg, A.H., Insel ,A.J. and Spence, L., ―Linear Algebra‖,
+    PrenticeHallofIndia,NewDelhi,2004<br>
+    <b>T4:</b>
+    Koshy, T., “Elementary Number Theory with Applications”, Elsevier Publications, New Delhi,
+    2002<BR><br><br>
+   <b> REFERENCE BOOKS:</b><br><br>
+    <b>R1:</b>
+    Bernard Kolman, Robert C Busby and Sharon Cutler Ross, “Discrete Mathematical Structures”,
+    Prentice Hall, New Delhi, 6th Edition ,2007.<br>
+    <b>R2:</b>
+    Ralph P Grimaldi, “Discrete and Combinatorial Mathematics-An Applied Introduction”,
+    Addion Wesley, USA, 5th Edition,2016<br>
+    <b>R3:</b>
+    Richard Johnsonbaugh, “Discrete Mathematics”, Pearson Education, New Delhi,8th Edition
+    ,2018<br>
+    <b>R4:</b>
+    Kolman, B. Hill, D.R., ―Introductory Linear Algebra‖, Pearson Education, New Delhi, First
+    Reprint, 2009.<br>
+    <b>R5:</b>
+    Strang, G., ―Linear Algebra and its applications‖, Thomson (Brooks/Cole), New Delhi, 3rd
+    Edition, 2017.<br>
+    <b>R6:</b> Sundarapandian,V.―NumericalLinearAlgebra‖,PrenticeHallofIndia,NewDelhi,2015.</p>
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

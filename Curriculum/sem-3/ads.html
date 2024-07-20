@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEMESTER-III</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+     body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+      
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+    }
+    
+    #content {
+        position: absolute;
+        top: 5mm; /* Adjust according to your needs */
+        left: 30mm; /* Adjust according to your needs */
+        right: 30mm; /* Adjust according to your needs */
+        bottom: 5mm; /* Adjust according to your needs */
+        overflow-y: scroll;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 10mm; /* Adjust according to your needs */
+        background-color: rgba(255, 255, 255, 0.795); /* Add background color with transparency */
+    }
+    #heading {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px; /* Adjust according to your needs */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    .unit {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2mm; /* Adjust according to your needs */
+        margin-bottom: 5mm; /* Adjust according to your needs */
+    }
+    /* Button Styling */
+    button {
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color:rgba(124, 124, 124, 0.9);;
+    }
+</style>
+</head>
+<body>
+
+<div id="content">
+    <div style="position: absolute; top: 20px; right: 20px; width: 150px; height: 100px; border: 1px solid black; padding: 10px; background-color: white; text-align: center;">
+        <h3>L   T   P   C</h3>
+        <h3>3   0   0   3</h3>
+    </div>
+    
+    <div id="heading">
+        SEMESTER-III <br>ADVANCED DATA STRUCTURE AND
+        ALGORITHMS
+    </div>
+    <h5><b>21CS301</b></h5>
+    <h5><b>COURSE OBJECTIVES</b></h5>
+   
+    <p>The course aims to provide the students<br>
+        ● Learn Sorting, Searching and Hashing Techniques<BR>
+● Learn non-linear data structure - Tree<BR>
+● Be exposed to graph algorithms<BR>
+● Learn to apply tree and graph structures</p>
+    <h5><b>PREREQUISITES : C Programming</b></h5>
+    
+    <h5><b>Course Articulation Matrix : 3- High, 2- Medium, 3- Low</b></h5><br>
+    <table>
+        <tr>
+            <th> </th>
+            <th>PO1</th>
+            <th>PO2</th>
+            <th>PO3</th>
+            <th>PO4</th>
+            <th>PO5</th>
+            <th>PO6</th>
+            <th>PO7</th>
+            <th>PO8</th>
+            <th>PO9</th>
+            <th>PO10</th>
+            <th>PO11</th>
+            <th>PO12</th>
+            <th>PSO1</th>
+            <th>PSO2</th>
+            <th>PSO3</th>
+        </tr>
+        <tr>
+            <td>CO1</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CO2</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CO3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CO4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CO5</td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+       </tr>
+      
+    </table><br>
+    <div class="unit">
+        <h5><b>UNIT I - SEARCHING AND SORTING</b></h5>
+        <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+    </div>
+    <P>Searching- Linear Search - Binary Search. Sorting - Bubble sort - Selection sort - Insertion sort - Shell
+        sort – Radix sort, Quick Sort- Merge Sort. Hashing- Hash Functions – Separate Chaining – Open
+        Addressing – Rehashing – Extendible Hashing.</P><br>
+    <div class="unit">
+            <h5><b>UNIT II - TREES – I</b></h5>
+            <h5><b style="margin-left: 10mm;">9</b></h5><BR><br>
+        </div>
+        <P>Tree ADT – tree traversals - Binary Tree ADT – expression trees – applications of trees – binary search
+            tree ADT –Threaded Binary Trees- AVL Trees – Red Black Trees.</P><br>
+    <div class="unit">
+                <h5><b>UNIT III -TREES – II</b></h5>
+                <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+            </div>
+            <P>Splay Tree - B-Tree - B+ Tree - Heap – Binomial Heap – Fibonacci Heap – Heap Sort - Applications
+                of heap, Trie.</P><br>
+                <div class="unit">
+                    <h5><b>UNIT IV - GRAPHS- I</b></h5>
+                    <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+                </div>
+                <P>Definition – Representation of Graph – Types of graph - Breadth-first traversal - Depth-first traversal –
+                    Topological Sort – Bi-connectivity – Cut vertex – Euler circuits – Detecting Cycle in Directed and
+                    Undirected Graph</P><br>
+                    <div class="unit">
+                        <h5><b>UNIT V - GRAPHS- II</b></h5>
+                        <h5><b style="margin-left: 30mm;">9</b></h5><BR><br>
+                    </div>
+                    <P>Minimum Spanning Trees - Applications - Dijkstra's shortest path algorithm – Bellman Ford Algorithm
+                        – Floyd Warshall Algorithm - Disjoint Sets – Application of Disjoint Sets in Graph.</P><br>
+                        <h5><b style="margin-left: 20cm;">TOTAL HOURS:45</b></h5><BR><br>
+   <p><b>COURSE OUTCOMES</b><br><br>
+    At the end of the course students should be able to<br><br>
+    <b>CO1:</b>  Apply Sorting, Searching Hashing Techniques for Problem Solving<br>
+    <b>CO2:</b>Apply Binary Trees for various applications<br>
+    <b>CO3:</b>
+    Use M- Way Search trees, Heaps and Trie for solving problems<br>
+    <b>CO4:</b> Implement Graph and perform various operations on graph<br>
+    <b>CO5:</b> Use the different algorithms on graphs to solve problems.<br><br>
+   <br><br>
+   
+    <b>TEXT BOOKS:</b><br>
+    <b>T1:</b>
+    Mark Allen Weiss, “Data Structures and Algorithm Analysis in C”, 2nd Edition, Pearson
+    Education, 1997.<br>
+    <b>T2:</b>
+    ReemaThareja, “Data Structures Using C”, Second Edition, Oxford University Press, 2011<br>
+    <b>T3:</b>
+    Thomas H. Cormen, Charles E. Leiserson, Ronald L.Rivest, Clifford Stein, “Introduction to
+    Algorithms”, Second Edition, Mcgraw Hill, 2002<br>
+    <br>
+   
+   <b> REFERENCE BOOKS:</b><br><br>
+    <b>R1:</b>
+    Aho, Hopcroft and Ullman, “Data Structures and Algorithms”, Pearson Education, 1983.<br>
+    <b>R2:</b>
+    Stephen G. Kochan, “Programming in C”, 3rd edition, Pearson Education, 2004.<br>
+    <b>R3:</b>
+    Ellis Horowitz, SartajSahni, Susan Anderson-Freed, “Fundamentals of Data Structures in C”,
+Second Edition, University Press, 2008<br>
+</p>
+    <button onclick="goBack()">GoBack</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
